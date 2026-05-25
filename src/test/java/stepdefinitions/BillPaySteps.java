@@ -45,17 +45,17 @@ public class BillPaySteps extends BaseClass {
 	@When("user enters valid bill payment details")
 	public void user_enters_valid_bill_payment_details() {
 
-		billPayPage.enterPayeeName("Uday");
+		billPayPage.enterPayeeName("Rajesh");
 
-		billPayPage.enterAddress("Street 1");
+		billPayPage.enterAddress("2-123");
 
-		billPayPage.enterCity("Vizag");
+		billPayPage.enterCity("jgl");
 
-		billPayPage.enterState("AP");
+		billPayPage.enterState("Ts");
 
-		billPayPage.enterZipCode("530001");
+		billPayPage.enterZipCode("505425");
 
-		billPayPage.enterPhone("9999999999");
+		billPayPage.enterPhone("9849884181");
 
 		billPayPage.enterAccountNumber("12345");
 

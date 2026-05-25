@@ -47,8 +47,8 @@ public class LogoutSteps extends BaseClass {
 
 		loginPage = new LoginPage(driver);
 
-		loginPage.enterUsername("wronguser");
-		loginPage.enterPassword("wrongpass");
+		loginPage.enterUsername("ramu");
+		loginPage.enterPassword("rampass");
 	}
 
 

@@ -25,43 +25,43 @@ public class RegistrationSteps extends BaseClass {
     @When("user enters firstname")
     public void user_enters_firstname() {
 
-        register.enterFirstName("Uday");
+        register.enterFirstName("Rajesh");
     }
 
     @When("user enters lastname")
     public void user_enters_lastname() {
 
-        register.enterLastName("Gedela");
+        register.enterLastName("cheruku");
     }
 
     @When("user enters address")
     public void user_enters_address() {
 
-        register.enterAddress("Street No 7");
+        register.enterAddress("Street2");
     }
 
     @When("user enters city")
     public void user_enters_city() {
 
-        register.enterCity("Vizag");
+        register.enterCity("DMP");
     }
 
     @When("user enters state")
     public void user_enters_state() {
 
-        register.enterState("Andhra Pradesh");
+        register.enterState("TS");
     }
 
     @When("user enters zipcode")
     public void user_enters_zipcode() {
 
-        register.enterZipCode("530001");
+        register.enterZipCode("505425");
     }
 
     @When("user enters phone number")
     public void user_enters_phone_number() {
 
-        register.enterPhoneNumber("9999999999");
+        register.enterPhoneNumber("6305842862");
     }
 
     @When("user enters ssn")
@@ -73,19 +73,19 @@ public class RegistrationSteps extends BaseClass {
     @When("user enters username")
     public void user_enters_username() {
 
-        register.enterUsername("uday");
+        register.enterUsername("rajesh");
     }
 
     @When("user enters password")
     public void user_enters_password() {
 
-        register.enterPassword("demo123");
+        register.enterPassword("r123");
     }
 
     @When("user enters confirm password")
     public void user_enters_confirm_password() {
 
-        register.enterConfirmPassword("demo123");
+        register.enterConfirmPassword("r123");
     }
 
     @When("user clicks register button")

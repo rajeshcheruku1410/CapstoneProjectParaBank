@@ -47,7 +47,7 @@ public class TransferFundsSteps extends BaseClass {
 	@When("user enters valid transfer amount")
 	public void user_enters_valid_transfer_amount() {
 
-		transferPage.enterAmount("100");
+		transferPage.enterAmount("300");
 	}
 
 	@When("user clicks transfer funds button")
@@ -68,7 +68,7 @@ public class TransferFundsSteps extends BaseClass {
 	@When("user enters invalid transfer amount")
 	public void user_enters_invalid_transfer_amount() {
 
-		transferPage.enterAmount("-100");
+		transferPage.enterAmount("-300");
 	}
 
 	@Then("user should see invalid transfer behavior")

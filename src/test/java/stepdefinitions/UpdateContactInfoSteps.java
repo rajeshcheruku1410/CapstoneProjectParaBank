@@ -47,19 +47,19 @@ public class UpdateContactInfoSteps extends BaseClass {
 	@When("user enters valid contact details")
 	public void user_enters_valid_contact_details() {
 
-		updatePage.enterFirstName("Uday");
+		updatePage.enterFirstName("rajesh");
 
-		updatePage.enterLastName("Gedela");
+		updatePage.enterLastName("cheruku");
 
-		updatePage.enterAddress("Street 10");
+		updatePage.enterAddress("Street 2");
 
-		updatePage.enterCity("Vizag");
+		updatePage.enterCity("Dmp");
 
-		updatePage.enterState("AP");
+		updatePage.enterState("Ts");
 
-		updatePage.enterZipCode("530001");
+		updatePage.enterZipCode("505425");
 
-		updatePage.enterPhone("9999999999");
+		updatePage.enterPhone("9550920301");
 	}
 
 	@When("user clicks update profile button")

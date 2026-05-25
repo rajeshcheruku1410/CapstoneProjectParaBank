@@ -29,15 +29,15 @@ public class LoginSteps extends BaseClass {
     @When("User enters invalid username and valid password")
     public void user_enters_invalid_username_and_valid_password() {
 
-        loginPage.enterUsername("wronguser");
-        loginPage.enterPassword("NoPassword@123");
+        loginPage.enterUsername("w333");
+        loginPage.enterPassword("N@123");
     }
 
     @When("User enters valid username and invalid password")
     public void user_enters_valid_username_and_invalid_password() {
 
-        loginPage.enterUsername("udaySample");
-        loginPage.enterPassword("wrongpass");
+        loginPage.enterUsername("raju");
+        loginPage.enterPassword("xyzed");
     }
 
     @When("User enters blank username and password")
