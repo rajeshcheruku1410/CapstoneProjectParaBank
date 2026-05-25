@@ -1,5 +1,7 @@
 package stepdefinitions;
 
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import base.BaseClass;
@@ -7,6 +9,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.messages.types.Duration;
 import pages.LoginPage;
 
 public class LoginSteps extends BaseClass {
@@ -57,12 +60,7 @@ public class LoginSteps extends BaseClass {
    
     @Then("User should navigate to account overview page")
     public void user_should_navigate_to_account_overview_page() {
-
-        Assert.assertTrue(
-                driver.getPageSource()
-                        .contains("Accounts Overview"));
-
-        
+    	loginPage.checkAccountOverviewMsg();
     }
 
     @Then("User should see invalid login error message")

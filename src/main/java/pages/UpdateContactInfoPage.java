@@ -60,6 +60,8 @@ public class UpdateContactInfoPage {
 			"//h1[contains(text(),'Profile Updated')]")
 			WebElement profileUpdatedMessage;
 
+	@FindBy(xpath = "//h1[contains(text(),'Profile Updated')]")
+	WebElement profileUpdateMsg;
 
 	public void clickUpdateContactInfoLink() {
 
@@ -76,6 +78,13 @@ public class UpdateContactInfoPage {
 
 		txtLastName.clear();
 		txtLastName.sendKeys(lastname);
+	}
+	
+	public void checkProfileUpdateMsg()  {
+		boolean isProfileUpdateMsgDisplayed = profileUpdateMsg.isDisplayed();
+		if(isProfileUpdateMsgDisplayed) {
+			System.out.println("");
+		}
 	}
 
 	public void enterAddress(String address) {

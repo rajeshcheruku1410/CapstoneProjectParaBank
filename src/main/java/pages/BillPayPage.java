@@ -69,8 +69,8 @@ public class BillPayPage {
 	// Actions
 
 	public void clickBillPayLink() {
-
-		billPayLink.click();
+	    wait.until(ExpectedConditions.elementToBeClickable(billPayLink));
+	    billPayLink.click();
 	}
 
 	public void enterPayeeName(String name) {

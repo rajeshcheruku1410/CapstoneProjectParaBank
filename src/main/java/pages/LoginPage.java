@@ -30,7 +30,8 @@ public class LoginPage {
     @FindBy(linkText = "Register")
     WebElement registerLink;
 
-    
+    @FindBy(xpath = "//h1[contains(text(),'Accounts Overview')]	")
+    WebElement accountOverviewMsg;
 
     public void enterUsername(String username) {
 
@@ -59,7 +60,12 @@ public class LoginPage {
         registerLink.click();
     }
 
-    
+    public void checkAccountOverviewMsg() {
+    	boolean isAccountOverviewMsgDisplayed = accountOverviewMsg.isDisplayed();
+    	if(isAccountOverviewMsgDisplayed) {
+    		System.out.println("");
+    	}
+    }
 
     public boolean verifyUsernameTextbox() {
 

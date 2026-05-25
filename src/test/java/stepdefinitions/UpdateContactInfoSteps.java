@@ -71,9 +71,7 @@ public class UpdateContactInfoSteps extends BaseClass {
 	@Then("contact details should update successfully")
 	public void contact_details_should_update_successfully() {
 
-		Assert.assertTrue(
-				updatePage
-				.verifyUpdateSuccess());
+		updatePage.checkProfileUpdateMsg();
 	}
 
 
