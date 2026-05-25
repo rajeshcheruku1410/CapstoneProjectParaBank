@@ -1,0 +1,9 @@
+base\BaseClass.class
+base\DriverFactory.class
+pages\LoginPage.class
+pages\AccountsPage.class
+pages\BillPayPage.class
+pages\LogoutPage.class
+pages\RegistrationPage.class
+pages\UpdateContactInfoPage.class
+pages\TransferFundsPage.class

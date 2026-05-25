@@ -1,0 +1,10 @@
+stepdefinitions\BillPaySteps.class
+utilities\WaitUtils.class
+stepdefinitions\LoginSteps.class
+runners\TestRunner.class
+stepdefinitions\LogoutSteps.class
+stepdefinitions\AccountsSteps.class
+stepdefinitions\RegistrationSteps.class
+hooks\Hooks.class
+stepdefinitions\TransferFundsSteps.class
+stepdefinitions\UpdateContactInfoSteps.class
